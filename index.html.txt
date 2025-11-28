@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nmianxa – Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="hero">
+        <div class="content">
+            <h1 class="title">Hey, ich bin <span>Nmianxa</span></h1>
+            <p class="subtitle">Developer • Scripter • Creator</p>
+            <a href="#projects" class="btn">Meine Projekte ansehen</a>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <h2>Über mich</h2>
+        <p>Ich bin ein leidenschaftlicher Entwickler und erstelle moderne Roblox-Systeme mit AntiCheat, Admin-GUIs und coolen Features.</p>
+    </section>
+
+    <section id="projects" class="section dark">
+        <h2>Projekte</h2>
+        <div class="project-grid">
+
+            <div class="project-card">
+                <h3>Admin System</h3>
+                <p>Ein modernes Menü mit Ban, Unban, Fly, NoClip, Dropdowns und Effekten.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>AntiCheat</h3>
+                <p>Fortgeschrittenes AntiCheat-Skript mit Safe Mode, Hooks und Auto-Unban für Owner.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>UI Design</h3>
+                <p>Stylische GUIs mit Animationen für Roblox Studio & Web.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Kontakt</h2>
+        <p>Schreib mir gern auf Roblox:</p>
+        <a href="https://www.roblox.com/users/1/profile" class="btn">Roblox Profil öffnen</a>
+    </section>
+
+<script src="script.js"></script>
+</body>
+</html>

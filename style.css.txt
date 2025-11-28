@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #0d0d0d;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+/* HERO SECTION */
+.hero {
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.4), #0d0d0d),
+                url('https://images.unsplash.com/photo-1503264116251-35a269479413') center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    animation: fadeIn 2s ease forwards;
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.title span {
+    color: #00aaff;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #00aaff;
+    color: #fff;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background: #0080cc;
+}
+
+/* CONTENT SECTIONS */
+.section {
+    padding: 80px 10%;
+    animation: fadeIn 1.5s ease forwards;
+}
+
+.dark {
+    background: #111;
+}
+
+.project-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.project-card {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #333;
+    transition: 0.3s;
+    transform: translateY(30px);
+    opacity: 0;
+}
+
+/* Cool Hover Animation */
+.project-card:hover {
+    transform: scale(1.05);
+    border-color: #00aaff;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
